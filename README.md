@@ -20,6 +20,12 @@ yarn
 yarn image:build && yarn dev
 ```
 
+5 - Execute o seguinte comando para rodar as migrations
+
+```bash
+yarn typeorm migration:run
+```
+
 ## Indice:
 
 <ol>
