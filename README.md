@@ -112,7 +112,7 @@ _Exemplo:_ `/movie/list?name.ihas=matrix`
 ```json
 {
   "name": "Test Admin",
-  "role": "admin",
+  "role": "admin", // OR "user" for user permissions
   "email": "test@admin.com",
   "password": "S&nh4F0rT3"
 }
