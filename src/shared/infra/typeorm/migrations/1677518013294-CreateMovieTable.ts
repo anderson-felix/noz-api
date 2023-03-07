@@ -30,7 +30,7 @@ export class CreateMovieTable1677518013294 implements MigrationInterface {
           {
             name: 'genres_string',
             type: 'varchar',
-            default: '',
+            default: `''`,
           },
           {
             name: 'actors',
@@ -40,7 +40,7 @@ export class CreateMovieTable1677518013294 implements MigrationInterface {
           {
             name: 'actors_string',
             type: 'varchar',
-            default: '',
+            default: `''`,
           },
           {
             name: 'created_by',
